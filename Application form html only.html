@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Application Form</title>
+  </head>
+
+  <body>
+    <!-- A Part of the Form -->
+    <h2>A.General Questions</h1>
+
+    <form>
+      <label for="name">Proposed Insured's Name:</label>
+      <input id="name" type="text" name="name" required size="100">
+
+      <br> <br>
+
+      <label for="b.day">Birth Date:</label>
+      <input id="b.day" type="date" name="b.day">
+
+      Gender:
+      <input id="g-male" name="gender" type="radio">
+      <label for="g-male">Male</label>
+      <input id="g-female" name="gender" type="radio">
+      <label for="g-female">Female</label>
+
+      <br> <br>
+
+      <label for="address">Address: </label>
+      <input id="address" name="address" type="text" size="115">
+
+      <br><br>
+
+      <label for="phone">Phone number: </label>
+      <input id="phone" name="phone" type="text" size="45">
+
+      <label for="Email">Email Address: </label>
+      <input id="Email" name="Email" type="email" size="45">
+
+      <br><br>
+
+      <label for="idnum">ID Number: </label>
+      <input id="idnum" name="idnum" type="text" size="40">
+
+      <label for="SSN">Social Security Number: </label>
+      <input id="SSN" name="SSN" type="text" size="45">
+
+      <br><br>
+
+      Status: 
+      <input id="s-single" name="status" type="radio" > 
+      <label for="s-single">Single</label>
+
+      <input id="s-married" name="status" type="radio">
+      <label for="s-married">Married</label>
+
+      <input id="s-devorced" name="status" type="radio">
+      <label for="s-devorced">Devorced</label>
+
+      <input id="s-others" name="status" type="radio">
+      <label for="s-others">Other</label>
+
+
+      <br><br>
+
+      <label for="Occupation">Occupation: </label>
+      <input id="Occupation" name="Occupation" type="text" size="50">
+
+      Are you a Retiree?: 
+      <input id="retire-yes" name="retire" type="radio">
+      <label for="retire-yes">Yes</label>
+
+      <input id="retire-no" name="retire" type="radio">
+      <label for="retire-no">No</label>
+
+
+
+    </form>
+
+    <!-- B Part of the Form -->
+    <h2>B. Type of Health Coverage</h2>
+
+    <table bgcolor="black">
+      <tr bgcolor="lightgrey" width="300">
+        <td width="300" align="center">
+          Employes:
+          <input id="employee-yes" name="employee" type="radio">
+          <label for="employee-yes">Yes</label>
+
+          <input id="employee-no" name="employee" type="radio">
+          <label for="employee-no">No</label>
+
+          <p>Plan Choice:</p>
+
+        </td>
+
+        <td width="300"  align="center">
+          Spouse:
+          <input id="spouse-yes" name="spouse" type="radio">
+          <label for="spouse-yes">Yes</label>
+
+          <input id="spouse-no" name="spouse" type="radio">
+          <label for="spouse-no">No</label>
+          <p>Plan Choice:</p>
+        </td>
+
+        <td width="300"  align="center">
+          Children:
+          <input id="children-yes" name="children" type="radio">
+          <label for="children-yes">Yes</label>
+
+          <input id="children-no" name="children" type="radio">
+          <label for="children-no">No</label>
+          <p>Plan Choice:</p>
+        </td>
+      </tr>
+    </table>
+
+    <p>Complete if Spouse/Children are Proposed for Insurance:</p>
+
+    <table bgcolor="black">
+      <tr bgcolor="lightgrey" height="40">
+        <th width="220">Name</th>
+        <th width="200">SSN No.</th>
+        <th width="165">Relationship to proposed insured</th>
+        <th width="100">Birth Date</th>
+        <th width="100">Age</th>
+        <th width="100">Sex</th>
+      </tr>
+      <tr bgcolor="lightgrey" height="30">
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr bgcolor="lightgrey" height="30">
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr bgcolor="lightgrey" height="30">
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr bgcolor="lightgrey" height="30">
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr bgcolor="lightgrey" height="30">
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </table>
+
+    <!-- C Part of the Form -->
+
+    <h2>C. The Policy</h2>
+    <form>
+      <label for="unit">Units: </label>
+      <input id="unit" name="unit" type="text" size="50">
+
+      <label for="annum">Annual Premium: </label>
+      <input id="annum" name="annum" type="text" size="45">
+
+      <br><br>
+
+      Payment Mode:
+
+      <input id="payment-mode-annual" name="payment-mode" type="radio">
+      <label for="payment-mode-annual"> Annual</label>
+
+      <input id="payment-mode-semi" name="payment-mode" type="radio">
+      <label for="payment-mode-semi"> Semi-Annual</label>
+
+      <input id="payment-mode-monthly" name="payment-mode" type="radio"> 
+      <label for="payment-mode-monthly">Monthly PAT (Complete PAT Card)</label>
+
+      <br><br>
+
+      <label for="cash-with-application">Cash with Application: $</label>
+      <input id="cash-with-application" name="cash-with-application" type="text" size="100">
+
+      <br><br>
+
+      <label for="planned-modal-premium">Planned Modal Premium: $</label>
+      <input id="planned-modal-premium" name="planned-modal-premium" type="text" size="100">
+
+      <br><br>
+
+      <table>
+        <tr>
+          <td width="500">
+            <h4>Terms and Conditions</h6>
+            <p>Improvement should be measured regularly and assessed in order for you to know what's beneficial and what is not. This will help you set new targets</p>
+          </td>
+
+          <td>
+            <label for="signature">Signature:</label>
+            <br>
+            <input id="signature" name="signature" type="text" size="50">
+            <br><br>
+            <label for="form-date">Date:</label>
+            <input id="form-date" name="form-date" type="date">
+          </td>
+        </tr>
+      </table>
+
+    </form>
+
+    <br>
+    
+    <footer>Page 1 of 4</footer>
+  </body>
+</html>
